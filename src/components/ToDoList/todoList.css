@@ -1,0 +1,22 @@
+.todos-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.todo {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #575255;
+}
+
+.remove-todo {
+  background: transparent;
+  color: #575255;
+  border: none;
+  cursor: pointer;
+}
